@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "134081826916",
+    "project_id": "my-qit",
+    "storage_bucket": "my-qit.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:134081826916:android:f96144a276912c12cf0f71",
+        "android_client_info": {
+          "package_name": "com.example.check"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "134081826916-0p31s7f5saa956ng2jc9rem449clgm1q.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5ngMZq0pl76glajsNcrtOMOPhUxLzmt0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "134081826916-0p31s7f5saa956ng2jc9rem449clgm1q.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

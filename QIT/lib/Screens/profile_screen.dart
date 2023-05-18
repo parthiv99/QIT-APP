@@ -55,7 +55,7 @@ class _ProfileScreenState extends State<ProfileScreen>
           if (!snapshot.hasData) {
             return Center(
               child: CircularProgressIndicator(
-                valueColor: AlwaysStoppedAnimation(KTweeterColor),
+                valueColor: AlwaysStoppedAnimation(Color(0xff00acee)),
               ),
             );
           }

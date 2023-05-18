@@ -4,11 +4,6 @@ import '/Models/user_model.dart';
 
 class DatabaseServices {
   final FirebaseFirestore _firestore = FirebaseFirestore.instance;
-  static Future<int> followersNum(String userId) async {
-    QuerySnapshot followersSnapshot =
-        await followersRef.doc(userId).collection('Followers').get();
-    return followersSnapshot.docs.length;
-  }
 
   static CollectionReference postsRef =
       FirebaseFirestore.instance.collection('posts');
@@ -25,12 +20,6 @@ class DatabaseServices {
     DocumentSnapshot userSnapshot = await usersRef.doc(userId).get();
     int postCount = userSnapshot.get('postCount') ?? 0;
     usersRef.doc(userId).update({'postCount': postCount + 1});
-  }
-
-  static Future<int> followingNum(String userId) async {
-    QuerySnapshot followingSnapshot =
-        await followingRef.doc(userId).collection('Following').get();
-    return followingSnapshot.docs.length;
   }
 
   static void updateUserData(UserModel user) {

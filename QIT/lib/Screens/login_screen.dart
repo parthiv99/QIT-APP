@@ -54,10 +54,10 @@ class _LoginScreenState extends State<LoginScreen>
       decoration: InputDecoration(
         labelText: labelText,
         labelStyle: TextStyle(
-            color: focusNode.hasFocus ? KTweeterColor : Colors.grey,
+            color: focusNode.hasFocus ? Color(0xff00acee) : Colors.grey,
             fontSize: 16),
         focusedBorder: OutlineInputBorder(
-          borderSide: BorderSide(color: KTweeterColor, width: 1.3),
+          borderSide: BorderSide(color: Color(0xff00acee), width: 1.3),
         ),
         enabledBorder: OutlineInputBorder(
           borderSide: BorderSide(color: Colors.blueGrey, width: 1.1),

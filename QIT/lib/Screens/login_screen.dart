@@ -128,8 +128,6 @@ class _LoginScreenState extends State<LoginScreen>
                       bool isValid = await AuthService.login(_email, _password);
                       if (isValid) {
                         Navigator.pop(context);
-                        //    Navigator.of(context).push(MaterialPageRoute(
-                        //                    builder: (context) => FeedScreen()));
                       } else {
                         print('Wrong Credentials');
                       }

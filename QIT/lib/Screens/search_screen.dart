@@ -66,14 +66,14 @@ class _SearchScreenState extends State<SearchScreen> {
       appBar: AppBar(
         centerTitle: true,
         elevation: 0.5,
-        backgroundColor: Colors.deepPurple, // Updated background color
+        backgroundColor: Colors.deepPurple,
         title: TextField(
           controller: _searchController,
-          style: TextStyle(color: Colors.white), // Updated text color
+          style: TextStyle(color: Colors.white),
           decoration: InputDecoration(
             contentPadding: EdgeInsets.symmetric(vertical: 15),
             hintText: 'Search posts...',
-            hintStyle: TextStyle(color: Colors.white70), // Updated hint color
+            hintStyle: TextStyle(color: Colors.white70),
             border: InputBorder.none,
             prefixIcon: Icon(Icons.search, color: Colors.white),
             suffixIcon: IconButton(
@@ -86,7 +86,7 @@ class _SearchScreenState extends State<SearchScreen> {
               },
             ),
             filled: true,
-            fillColor: Colors.deepPurple.shade300, // Updated fill color
+            fillColor: Colors.deepPurple.shade300,
           ),
           onChanged: (input) {
             if (input.isNotEmpty) {
@@ -102,15 +102,13 @@ class _SearchScreenState extends State<SearchScreen> {
               child: Column(
                 mainAxisAlignment: MainAxisAlignment.center,
                 children: [
-                  Icon(Icons.search,
-                      size: 180,
-                      color: Colors.deepPurple), // Updated icon color
+                  Icon(Icons.search, size: 180, color: Colors.deepPurple),
                   Text(
                     'Search posts...',
                     style: TextStyle(
                         fontSize: 22,
                         fontWeight: FontWeight.w400,
-                        color: Colors.deepPurple), // Updated text color
+                        color: Colors.deepPurple),
                   ),
                 ],
               ),

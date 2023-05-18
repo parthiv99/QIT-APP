@@ -16,7 +16,6 @@ class DatabaseServices {
       'timestamp': Timestamp.now(),
     });
 
-    // Update user's post count
     DocumentSnapshot userSnapshot = await usersRef.doc(userId).get();
     int postCount = userSnapshot.get('postCount') ?? 0;
     usersRef.doc(userId).update({'postCount': postCount + 1});

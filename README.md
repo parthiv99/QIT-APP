@@ -1,1 +1,5 @@
 # QIT-APP
+
+Installation steps:
+
+- 

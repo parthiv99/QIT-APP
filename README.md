@@ -1,11 +1,10 @@
 # QIT-APP
 
 
-Run the code
 
 
 
-
+#Run the code
 
 Code Installation steps:
 
@@ -16,5 +15,6 @@ Code Installation steps:
 - Next, go to the root directory of the code.
 - Use an andrioid emulator, preferred is android studio. 
 - Type the command 'flutter pub get' to run all the dependencies.
-- Type the command 'flutter run '
+- Type the command 'flutter run --no-sound-null-safety'
 - Therefore, it will display the application on the android emulator.
+- 

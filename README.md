@@ -2,9 +2,12 @@
 
 
 
+Run the application:
+- The github repository involves an 'apk -debug' apk file. Since this is an android application, you need an android device to run the application.
+- Click on the .apk file in your android device and give it permissions to install the unknown source.
+- After installation, you will see Qit in your android device menu.
 
 
-#Run the code
 
 Code Installation steps:
 
@@ -17,4 +20,4 @@ Code Installation steps:
 - Type the command 'flutter pub get' to run all the dependencies.
 - Type the command 'flutter run --no-sound-null-safety'
 - Therefore, it will display the application on the android emulator.
-- 
+

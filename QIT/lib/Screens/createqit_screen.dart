@@ -41,13 +41,12 @@ class _CreateQITScreenState extends State<CreateQITScreen> {
                   text: _qitText,
                   username: currentUser.displayName ?? '',
                   uid: currentUser.uid,
-                  postId: '', // You can generate a unique postId here
+                  postId: '',
                   timestamp: DateTime.now(),
                 );
 
                 await newPost.savePost();
 
-                // Navigates back to the Home Screen
                 Navigator.popUntil(context, (route) => route.isFirst);
               }
             },
